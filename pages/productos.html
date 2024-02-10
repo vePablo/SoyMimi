@@ -24,6 +24,9 @@
                 </div>
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="container-fluid">
+                      <div class="header-mobil">
+                        <button id="open-menu" class="open-menu" ><i class="bi bi-three-dots"></i></button>
+                      </div>
                       <a class="navbar-brand" href="#">
                         <img src="#" alt="">Soy Mimi</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +60,12 @@
         </div>
     </header>
     <div class="wrapper">
-        <aside>
+      <aside>
+        <div class="aside-header">
+          <button class="close-menu" id="close-menu">
+            <i class="bi bi-x"></i>
+          </button>
+        </div>
             <nav class="nav-aside">
                 <ul class="menu" >
                     <li>
@@ -77,13 +85,10 @@
                     </li>
                 </ul>
             </nav>
-
-
-
-        </aside>
-        <main>
-        <h2 class="titulo-principal" id="titulo-principal" >Todos los productos</h2>    
-        <div id="contenedor-productos" class="contenedor-productos">
+       </aside>
+       <main>
+       <h2 class="titulo-principal" id="titulo-principal" >Todos los productos</h2>    
+       <div id="contenedor-productos" class="contenedor-productos">
             <!-- carga con js -->
         </div>    
         </main>
@@ -91,16 +96,20 @@
     <footer>
         <div class="container-fluid">
           <div class="row">
-              <div class="contenedro-form my-4">
+              <div class="contenedor-form my-4">
                 <div class="logo">
-                  <img src="#" alt="">
+                  <p class="title">Soy Mimi</p>
                 </div>
+                
+                <div class="contenedor-datos">
                 <div class="info">
                   <h5>Contactanos</h5>
                   <p>Por una rápida respuesta, Lunes a
                     Viernes</p>
                   <p>email : soymimituc@gmail.com</p>
                   <p>text us: (381) 1 123 123</p>
+                  <span><a href="https://www.instagram.com/soymimi.tuc/"><i class="bi bi-instagram"></i></a></span>
+                  <span><a href="wa.me/c/5493816255808"><i class="bi bi-whatsapp"></i></a></span>
                 </div>
                 <div class="direc">
                   <p>Visitanos en:</p>
@@ -121,28 +130,15 @@
                     <a href="">Privacy Policy</a>
                   </ul>
                 </div>
+              </div>
                 <div class="form">
-                  <div class="contenedro-media">
+                  <div class="contenedor-media">
                     <form action="" method="post">
                       <label for="POST-name">Suscribete a nuestro boletin</label>
                       <input id="input-email" type="email" name="email" placeholder="email"/>
                       <input type="submit" value="Suscribete" />
-                    </form>
-                    
-                    <div class="media">
-                      <ul>
-                        <li>
-                          <a href=""><img src="" alt="">Instagram</a>
-                        </li>
-                        <li>
-                          <a href=""><img src="" alt="">face</a>
-                        </li>
-                        <li>
-                          <a href=""><img src="" alt="">whatsp</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                    </form>                    
+                  </div>                  
                 </div>
               </div>
             </div>
@@ -156,6 +152,7 @@
     <!-- js -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="../js/main.js"></script>
+    <script src="../js/menu.js"></script>
     <script src="../js/carrito.js"></script>
 </body>
 </html>
