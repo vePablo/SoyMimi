@@ -1,0 +1,265 @@
+
+    [
+      {
+        "id": "agenda-1",
+        "titulo": "Agenda 1",
+        "precio": 19.99,
+        "imagen": "../img/productos/agenda-1.jpg",
+        "categoria": {
+          "nombre": "Agendas",
+          "id": "agendas"
+        }
+      },
+      {
+        "id": "agenda-2",
+        "titulo": "Agenda 2",
+        "precio": 22.50,
+        "imagen": "../img/productos/agenda-2.jpg",
+        "categoria": {
+          "nombre": "Agendas",
+          "id": "agendas"
+        }
+      },
+      {
+        "id": "agenda-3",
+        "titulo": "Agenda 3",
+        "precio": 18.75,
+        "imagen": "../img/productos/agenda-3.jpg",
+        "categoria": {
+          "nombre": "Agendas",
+          "id": "agendas"
+        }
+      },
+      {
+        "id": "agenda-4",
+        "titulo": "Agenda 4",
+        "precio": 18.75,
+        "imagen": "../img/productos/agenda-4.jpg",
+        "categoria": {
+          "nombre": "Agendas",
+          "id": "agendas"
+        }
+      },
+      {
+        "id": "agenda-5",
+        "titulo": "Agenda 5",
+        "precio": 18.75,
+        "imagen": "../img/productos/agenda-5.jpg",
+        "categoria": {
+          "nombre": "Agendas",
+          "id": "agendas"
+        }
+      },
+      {
+        "id": "agenda-6",
+        "titulo": "Agenda 6",
+        "precio": 18.75,
+        "imagen": "../img/productos/agenda-6.jpg",
+        "categoria": {
+          "nombre": "Agendas",
+          "id": "agendas"
+        }
+      },
+      {
+        "id": "agenda-milena",
+        "titulo": "Agenda Milena",
+        "precio": 18.75,
+        "imagen": "../img/productos/agenda-milena-1.jpg",
+        "categoria": {
+          "nombre": "Agendas",
+          "id": "agendas"
+        }
+      },
+      {
+        "id": "remera-1",
+        "titulo": "Remera 1",
+        "precio": 25.00,
+        "imagen": "../img/productos/remera-1.jpg",
+        "categoria": {
+          "nombre": "Remeras",
+          "id": "sublimacion"
+        }
+      },
+      {
+        "id": "remera-fz",
+        "titulo": "Remera fz",
+        "precio": 25.00,
+        "imagen": "../img/productos/remera-fz.jpg",
+        "categoria": {
+          "nombre": "Remeras",
+          "id": "sublimacion"
+        }
+      },
+      {
+        "id": "remera-g",
+        "titulo": "Remera g",
+        "precio": 25.00,
+        "imagen": "../img/productos/remera-g.jpg",
+        "categoria": {
+          "nombre": "Remeras",
+          "id": "sublimacion"
+        }
+      },
+      {
+        "id": "remera-mb",
+        "titulo": "Remera mb",
+        "precio": 25.00,
+        "imagen": "../img/productos/remera-mb.jpg",
+        "categoria": {
+          "nombre": "Remeras",
+          "id": "sublimacion"
+        }
+      },
+      {
+        "id": "remera-mi",
+        "titulo": "Remera mi",
+        "precio": 25.00,
+        "imagen": "../img/productos/remera-mi.jpg",
+        "categoria": {
+          "nombre": "Remeras",
+          "id": "sublimacion"
+        }
+      },
+      {
+        "id": "remera-ts",
+        "titulo": "Remera ts",
+        "precio": 25.00,
+        "imagen": "../img/productos/remera-1.jpg",
+        "categoria": {
+          "nombre": "Remeras",
+          "id": "sublimacion"
+        }
+      },
+      {
+        "id": "taza-3",
+        "titulo": "Taza 3",
+        "precio": 12.50,
+        "imagen": "../img/productos/taza-3.jpg",
+        "categoria": {
+          "nombre": "Tazas",
+          "id": "sublimacions"
+        }
+      },
+      {
+        "id": "taza-fz",
+        "titulo": "Taza Fz",
+        "precio": 12.50,
+        "imagen": "../img/productos/taza-fz.jpg",
+        "categoria": {
+          "nombre": "Tazas",
+          "id": "sublimacion"
+        }
+      },
+      {
+        "id": "taza-mi",
+        "titulo": "Taza Mi",
+        "precio": 12.50,
+        "imagen": "../img/productos/taza-mi.jpg",
+        "categoria": {
+          "nombre": "Tazas",
+          "id": "sublimacion"
+        }
+      },
+      {
+        "id": "taza-mimi",
+        "titulo": "Taza Mimi",
+        "precio": 12.50,
+        "imagen": "../img/productos/taza-mimi.jpg",
+        "categoria": {
+          "nombre": "Tazas",
+          "id": "sublimacion"
+        }
+      },
+      {
+        "id": "taza-sm",
+        "titulo": "Taza Sm",
+        "precio": 12.50,
+        "imagen": "../img/productos/taza-sm.jpg",
+        "categoria": {
+          "nombre": "Tazas",
+          "id": "sublimacion"
+        }
+      },
+      {
+        "id": "taza-zoo3",
+        "titulo": "Taza Zoo3",
+        "precio": 12.50,
+        "imagen": "../img/productos/taza-zoo3.jpg",
+        "categoria": {
+          "nombre": "Tazas",
+          "id": "sublimacion"
+        }
+      },
+      {
+        "id": "tarjeta-2",
+        "titulo": "Tarjeta 2",
+        "precio": 7.25,
+        "imagen": "../img/productos/tarjeta-2.jpg",
+        "categoria": {
+          "nombre": "Tarjetas",
+          "id": "tarjetas"
+        }
+      },
+      {
+        "id": "tarjeta-gracias",
+        "titulo": "Tarjeta gracias",
+        "precio": 7.25,
+        "imagen": "../img/productos/tarjeta-gracias.jpg",
+        "categoria": {
+          "nombre": "Tarjetas",
+          "id": "tarjetas"
+        }
+      },
+      {
+        "id": "tarjeta-GraciasCompra",
+        "titulo": "Tarjeta gracias por su compra",
+        "precio": 7.25,
+        "imagen": "../img/productos/tarjeta-graciasCompra.jpg",
+        "categoria": {
+          "nombre": "Tarjetas",
+          "id": "tarjetas"
+        }
+      },
+      {
+        "id": "tarjeta-hola",
+        "titulo": "Tarjeta Hola",
+        "precio": 7.25,
+        "imagen": "../img/productos/tarjeta-hola.jpg",
+        "categoria": {
+          "nombre": "Tarjetas",
+          "id": "tarjetas"
+        }
+      },
+      {
+        "id": "tarjeta-muchasGracias",
+        "titulo": "Tarjeta Muchas Gracias",
+        "precio": 7.25,
+        "imagen": "../img/productos/tarjeta-muchasGracias.jpg",
+        "categoria": {
+          "nombre": "Tarjetas",
+          "id": "tarjetas"
+        }
+      },
+      {
+        "id": "tarjeta-soyMimi",
+        "titulo": "Tarjeta soy Mimi",
+        "precio": 7.25,
+        "imagen": "../img/productos/tarjeta-soyMimi.jpg",
+        "categoria": {
+          "nombre": "Tarjetas",
+          "id": "tarjetas"
+        }
+      },
+      {
+        "id": "tarjeta-yaLlegue",
+        "titulo": "Tarjeta Ya llegue",
+        "precio": 7.25,
+        "imagen": "../img/productos/tarjeta-yaLlegue.jpg",
+        "categoria": {
+          "nombre": "Tarjetas",
+          "id": "tarjetas"
+        }
+      }
+]
+  
+  
