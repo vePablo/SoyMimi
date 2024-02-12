@@ -66,7 +66,7 @@ a{
 footer{
     background: #f5f5f5;
 }
-.contenedro-form{
+.contenedor-form{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -178,12 +178,18 @@ main{
     margin: 1rem;
     padding: 2.5rem;
     margin-left: 0 ;
-    /* width: 80%; */
 
 }
 .titulo-principal{
     color: var(--color-sec);
     margin-bottom: 2rem;
+}
+.producto{
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 4px 5px 0px -1px rgba(0,0,0,0.44);
+    -webkit-box-shadow: 4px 5px 0px -1px rgba(0,0,0,0.44);
+    -moz-box-shadow: 4px 5px 0px -1px rgba(0,0,0,0.44);   
 }
 .producto-imagen {
     max-width: 100%;
@@ -194,6 +200,7 @@ main{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 1rem;
+    
 }
 .producto-detalles {
     display: flex;
@@ -202,6 +209,7 @@ main{
 }
 .producto-titulo{
     font-size: 1.2rem;
+    margin-top: 1rem;
    
 }
 .producto-precio{
@@ -234,7 +242,7 @@ main{
 .carrito-productos{
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 1.5rem;
 }
 h3.carrito-productos{
     font-size: .5rem;
@@ -247,13 +255,13 @@ h3.carrito-productos{
 .carrito-producto{
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
+    gap: .5rem;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
 }
 .carrito-producto-imagen{
-    width: 4rem;
+    width: 2rem;
     
 }
 .carrito-producto-cantidad,
@@ -270,7 +278,6 @@ h3.carrito-productos{
     align-items: center;
 }
 .carrito-producto-eliminar{
-    color: #d10404;
     border: none;
     background: none;
 }
@@ -401,6 +408,7 @@ h3.carrito-productos{
     }
     main{
         margin: auto;
+        padding: 2px;
     }
     aside{
         position: fixed;
@@ -444,10 +452,27 @@ h3.carrito-productos{
     .contenedor-datos{
         flex-direction: column;
     }
-}
-
+    p {
+        font-size: 16px;
+    }
+    .contenedor-carrito{
+        margin-bottom: 40px;
+    }
+    .carrito-producto{
+        gap: 15px;
+        
+        
+    }
+    
+    
 @media screen and (max-width: 750px){
     .contenedor-productos{
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr))       
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        margin-left: 20px;
+        margin-right: 20px;     
     }
+}
+.producto-detalles h3, p {
+    padding-left: 14px;
+}
 }
